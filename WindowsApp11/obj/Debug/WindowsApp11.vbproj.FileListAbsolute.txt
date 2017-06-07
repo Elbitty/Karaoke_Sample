@@ -9,3 +9,14 @@ c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\o
 c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.exe
 c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.xml
 c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.pdb
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\bin\Debug\WindowsApp11.exe.config
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\bin\Debug\WindowsApp11.exe
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\bin\Debug\WindowsApp11.pdb
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\bin\Debug\WindowsApp11.xml
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.vbprojResolveAssemblyReference.cache
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.Form1.resources
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.Resources.resources
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.vbproj.GenerateResource.Cache
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.exe
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.xml
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.pdb

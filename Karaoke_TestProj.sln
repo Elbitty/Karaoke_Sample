@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApp11", "WindowsApp11\WindowsApp11.vbproj", "{9AF85A7B-F0C3-4741-931B-88B20052028D}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Karaoke_Test", "WindowsApp11\Karaoke_Test.vbproj", "{9AF85A7B-F0C3-4741-931B-88B20052028D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
