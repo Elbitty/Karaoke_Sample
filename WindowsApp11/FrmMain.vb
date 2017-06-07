@@ -50,6 +50,7 @@
         End If
         pnlShield.Width += BeatMin
 
+        lblLyricWidth.Text = pnlShield.Width '디버깅용
         lblCntSyllable.Text = BeatCursor '디버깅용
 
     End Sub

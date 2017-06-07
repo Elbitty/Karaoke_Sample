@@ -33,13 +33,14 @@ Partial Class FrmMain
         Me.lblCntSpaces = New System.Windows.Forms.Label()
         Me.btnStart = New System.Windows.Forms.Button()
         Me.lblCntSyllable = New System.Windows.Forms.Label()
+        Me.lblLyricWidth = New System.Windows.Forms.Label()
         Me.pnlShield.SuspendLayout()
         Me.SuspendLayout()
         '
         'pnlShield
         '
         Me.pnlShield.Controls.Add(Me.lblBack)
-        Me.pnlShield.Location = New System.Drawing.Point(21, 84)
+        Me.pnlShield.Location = New System.Drawing.Point(19, 83)
         Me.pnlShield.Margin = New System.Windows.Forms.Padding(10, 15, 10, 15)
         Me.pnlShield.Name = "pnlShield"
         Me.pnlShield.Size = New System.Drawing.Size(12, 298)
@@ -62,7 +63,7 @@ Partial Class FrmMain
         'lblTotlSyllableToCurr
         '
         Me.lblTotlSyllableToCurr.AutoSize = True
-        Me.lblTotlSyllableToCurr.Location = New System.Drawing.Point(13, 397)
+        Me.lblTotlSyllableToCurr.Location = New System.Drawing.Point(12, 396)
         Me.lblTotlSyllableToCurr.Name = "lblTotlSyllableToCurr"
         Me.lblTotlSyllableToCurr.Size = New System.Drawing.Size(38, 59)
         Me.lblTotlSyllableToCurr.TabIndex = 7
@@ -72,7 +73,7 @@ Partial Class FrmMain
         '
         Me.lblFront.AutoSize = True
         Me.lblFront.ForeColor = System.Drawing.Color.Red
-        Me.lblFront.Location = New System.Drawing.Point(24, 84)
+        Me.lblFront.Location = New System.Drawing.Point(22, 83)
         Me.lblFront.Name = "lblFront"
         Me.lblFront.Size = New System.Drawing.Size(73, 59)
         Me.lblFront.TabIndex = 8
@@ -81,7 +82,7 @@ Partial Class FrmMain
         'lblSpeed
         '
         Me.lblSpeed.AutoSize = True
-        Me.lblSpeed.Location = New System.Drawing.Point(13, 10)
+        Me.lblSpeed.Location = New System.Drawing.Point(12, 9)
         Me.lblSpeed.Name = "lblSpeed"
         Me.lblSpeed.Size = New System.Drawing.Size(49, 59)
         Me.lblSpeed.TabIndex = 9
@@ -90,7 +91,7 @@ Partial Class FrmMain
         'lblBeatPerCurSyllable
         '
         Me.lblBeatPerCurSyllable.AutoSize = True
-        Me.lblBeatPerCurSyllable.Location = New System.Drawing.Point(452, 10)
+        Me.lblBeatPerCurSyllable.Location = New System.Drawing.Point(447, 9)
         Me.lblBeatPerCurSyllable.Name = "lblBeatPerCurSyllable"
         Me.lblBeatPerCurSyllable.Size = New System.Drawing.Size(49, 59)
         Me.lblBeatPerCurSyllable.TabIndex = 10
@@ -99,7 +100,7 @@ Partial Class FrmMain
         'lblCntSpaces
         '
         Me.lblCntSpaces.AutoSize = True
-        Me.lblCntSpaces.Location = New System.Drawing.Point(590, 10)
+        Me.lblCntSpaces.Location = New System.Drawing.Point(583, 9)
         Me.lblCntSpaces.Name = "lblCntSpaces"
         Me.lblCntSpaces.Size = New System.Drawing.Size(49, 59)
         Me.lblCntSpaces.TabIndex = 12
@@ -107,9 +108,9 @@ Partial Class FrmMain
         '
         'btnStart
         '
-        Me.btnStart.Location = New System.Drawing.Point(12, 494)
+        Me.btnStart.Location = New System.Drawing.Point(12, 486)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(327, 79)
+        Me.btnStart.Size = New System.Drawing.Size(327, 78)
         Me.btnStart.TabIndex = 13
         Me.btnStart.Text = "START"
         Me.btnStart.UseVisualStyleBackColor = True
@@ -117,18 +118,28 @@ Partial Class FrmMain
         'lblCntSyllable
         '
         Me.lblCntSyllable.AutoSize = True
-        Me.lblCntSyllable.Location = New System.Drawing.Point(730, 10)
+        Me.lblCntSyllable.Location = New System.Drawing.Point(735, 9)
         Me.lblCntSyllable.Name = "lblCntSyllable"
         Me.lblCntSyllable.Size = New System.Drawing.Size(49, 59)
         Me.lblCntSyllable.TabIndex = 14
         Me.lblCntSyllable.Text = "0"
+        '
+        'lblLyricWidth
+        '
+        Me.lblLyricWidth.AutoSize = True
+        Me.lblLyricWidth.Location = New System.Drawing.Point(110, 9)
+        Me.lblLyricWidth.Name = "lblLyricWidth"
+        Me.lblLyricWidth.Size = New System.Drawing.Size(49, 59)
+        Me.lblLyricWidth.TabIndex = 15
+        Me.lblLyricWidth.Text = "0"
         '
         'FrmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(25.0!, 59.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1150, 589)
+        Me.ClientSize = New System.Drawing.Size(1085, 577)
+        Me.Controls.Add(Me.lblLyricWidth)
         Me.Controls.Add(Me.lblCntSyllable)
         Me.Controls.Add(Me.btnStart)
         Me.Controls.Add(Me.lblCntSpaces)
@@ -157,4 +168,5 @@ Partial Class FrmMain
     Friend WithEvents lblCntSpaces As Label
     Friend WithEvents btnStart As Button
     Friend WithEvents lblCntSyllable As Label
+    Friend WithEvents lblLyricWidth As Label
 End Class
