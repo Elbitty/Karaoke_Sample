@@ -53,10 +53,10 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Label4.Text = FullLyric
-        Label1.Text = FullLyric
-        Lyric = FullLyric.Replace(" ", "")
-        Panel1.Width = 10
+        Label4.Text = FullLyric '뒷쪽 레이블
+        Label1.Text = FullLyric '앞쪽 레이블
+
+        Lyric = FullLyric.Replace(" ", "") '스페이스는 음절에 해당하지 않으므로 박자 판정을 위하여 제거한다
 
         Timer1.Interval = ((60 / BPM) * 1000)
     End Sub
