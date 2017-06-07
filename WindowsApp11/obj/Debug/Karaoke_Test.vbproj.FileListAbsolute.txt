@@ -1,0 +1,11 @@
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\bin\Debug\WindowsApp11.exe.config
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\bin\Debug\WindowsApp11.exe
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\bin\Debug\WindowsApp11.pdb
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\bin\Debug\WindowsApp11.xml
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\Karaoke_Test.vbprojResolveAssemblyReference.cache
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.FrmMain.resources
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.Resources.resources
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\Karaoke_Test.vbproj.GenerateResource.Cache
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.exe
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.xml
+C:\Users\Win10\Documents\GitHub\Karaoke_Sample\WindowsApp11\obj\Debug\WindowsApp11.pdb

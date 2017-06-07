@@ -2,24 +2,24 @@
 
     Dim FullLyric As String = "한 번 더 나에게 질풍 같은 용기를 거친 파도에도 굴하지 않게~" '전체 가사
     Dim Lyric As String '스페이스를 제외한 가사
-    Dim Beat() As Integer = {0, 2, 2, 4, 2, 1, 5, 2, 1, 3, 2, 2, 1, 5, 2, 1, 3, 2, 2, 1, 3, 2, 2, 1, 4, 6} '0번 index는 쓰이지 않음.
+    Dim Beat() As Byte = {0, 2, 2, 4, 2, 1, 5, 2, 1, 3, 2, 2, 1, 5, 2, 1, 3, 2, 2, 1, 3, 2, 2, 1, 4, 6} '편의를 위하여 0번 index는 쓰이지 않음.
 
-    Dim BeatCursor As Integer = 0 '현재 가사가 도달한 위치를 지시하는 커서
-    Dim BPM As Integer = 120 '곡의 BPM
+    Dim BeatCursor As Integer = 0 '현재 가사가 도달한 위치를 지시하는 커서.
+    Dim BPM As Integer = 120 '곡의 BPM. 윈폼의 한계 상 Timer가 지연되어 정확히 작동하지는 않는다.
 
     Dim BeatOverNode As Integer = 4 '마디당 박자
     Dim BeatOverBeat As Integer = 4 '박자당 박자
 
     Dim Adder As Double = 0 '이번 음절의 Width
 
-    Dim nextWidth As Integer = -1 '다음번 음절을 포함한 Width 변수
+    Dim nextWidth As Integer = 0 '다음번 음절을 포함한 Width 변수.
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles tmrPlay.Tick
 
         If pnlShield.Width > nextWidth Then
 
             BeatCursor += 1
-            If Mid(FullLyric, BeatCursor, 1) = " " Then '스페이스 스킵용
+            If Mid(FullLyric, BeatCursor, 1) = " " Then '스페이스를 스킵하기 위함.
                 pnlShield.Width += (GetCharWidth("$ $", Font) - GetCharWidth("$$", Font)) '더미 텍스트를 스페이스 양쪽에 넣어 스페이스 1개당 차지하는 Width를 구한다.
 
                 lblCntSpaces.Text += 1 '디버깅용
@@ -44,8 +44,8 @@
             'Interval로 음절당 빠르기를 조절한다. Width로 조절하는 것도 가능하나, 윈폼의 한계상 에일리어싱 발생함.
 
             lblSpeed.Text = tmrPlay.Interval '디버깅용
-        End If
 
+        End If
         pnlShield.Width += 3
 
         lblCntSyllable.Text = BeatCursor '디버깅용
