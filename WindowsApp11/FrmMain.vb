@@ -5,16 +5,16 @@
     Dim Beat() As Byte = {0, 2, 2, 4, 2, 1, 5, 2, 1, 3, 2, 2, 1, 5, 2, 1, 3, 2, 2, 1, 3, 2, 2, 1, 4, 6} '편의를 위하여 0번 index는 쓰이지 않음.
 
     Dim BeatCursor As Integer = 0 '현재 가사가 도달한 위치를 지시하는 커서.
-    Dim BPM As Integer = 240 '곡의 BPM. 윈폼의 한계 상 Timer가 지연되어 정확히 작동하지는 않는다. 따라서 곡의 BPM보다 어느 정도 큰 값을 주어야 함.
+    Dim BPM As Integer = 230 '곡의 BPM. 윈폼의 한계 상 Timer가 지연되어 정확히 작동하지는 않는다. 따라서 곡의 BPM보다 어느 정도 큰 값을 주어야 함.
 
     Dim BeatOverBeat As Byte = 4 '박자당 박자
     Dim BeatOverNode As Byte = 4 '마디당 박자
 
     Dim BeatMin As Byte = 2 '전체 배속이다. BeatMin 수치는 어떻던 관계 없이 BPM * BeatMin이 일정하면 됨.
 
-    Dim Adder As Double = 0 '이번 음절의 Width
+    Dim Adder As Double = 0 '이번 박자의 음절이 차지하는 Width.
 
-    Dim nextWidth As Integer = -1 '다음번 음절을 포함한 Width 변수.
+    Dim nextWidth As Integer = -1 '다음번 음절을 포함한 전체 마디의 Width.
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles tmrPlay.Tick
 
