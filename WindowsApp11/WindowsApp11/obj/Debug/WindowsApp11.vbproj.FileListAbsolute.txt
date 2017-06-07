@@ -1,0 +1,11 @@
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\bin\Debug\WindowsApp11.exe.config
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\bin\Debug\WindowsApp11.exe
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\bin\Debug\WindowsApp11.pdb
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\bin\Debug\WindowsApp11.xml
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.vbprojResolveAssemblyReference.cache
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.Form1.resources
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.Resources.resources
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.vbproj.GenerateResource.Cache
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.exe
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.xml
+c:\users\win10\documents\visual studio 2017\Projects\WindowsApp11\WindowsApp11\obj\Debug\WindowsApp11.pdb
