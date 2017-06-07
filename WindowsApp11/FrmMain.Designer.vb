@@ -39,10 +39,10 @@ Partial Class FrmMain
         'pnlShield
         '
         Me.pnlShield.Controls.Add(Me.lblBack)
-        Me.pnlShield.Location = New System.Drawing.Point(18, 74)
-        Me.pnlShield.Margin = New System.Windows.Forms.Padding(9, 13, 9, 13)
+        Me.pnlShield.Location = New System.Drawing.Point(21, 84)
+        Me.pnlShield.Margin = New System.Windows.Forms.Padding(10, 15, 10, 15)
         Me.pnlShield.Name = "pnlShield"
-        Me.pnlShield.Size = New System.Drawing.Size(10, 263)
+        Me.pnlShield.Size = New System.Drawing.Size(12, 298)
         Me.pnlShield.TabIndex = 4
         '
         'lblBack
@@ -51,7 +51,7 @@ Partial Class FrmMain
         Me.lblBack.ForeColor = System.Drawing.Color.Blue
         Me.lblBack.Location = New System.Drawing.Point(3, 0)
         Me.lblBack.Name = "lblBack"
-        Me.lblBack.Size = New System.Drawing.Size(65, 52)
+        Me.lblBack.Size = New System.Drawing.Size(73, 59)
         Me.lblBack.TabIndex = 5
         Me.lblBack.Text = "##"
         '
@@ -62,9 +62,9 @@ Partial Class FrmMain
         'lblTotlSyllableToCurr
         '
         Me.lblTotlSyllableToCurr.AutoSize = True
-        Me.lblTotlSyllableToCurr.Location = New System.Drawing.Point(12, 350)
+        Me.lblTotlSyllableToCurr.Location = New System.Drawing.Point(13, 397)
         Me.lblTotlSyllableToCurr.Name = "lblTotlSyllableToCurr"
-        Me.lblTotlSyllableToCurr.Size = New System.Drawing.Size(34, 52)
+        Me.lblTotlSyllableToCurr.Size = New System.Drawing.Size(38, 59)
         Me.lblTotlSyllableToCurr.TabIndex = 7
         Me.lblTotlSyllableToCurr.Text = "."
         '
@@ -72,44 +72,44 @@ Partial Class FrmMain
         '
         Me.lblFront.AutoSize = True
         Me.lblFront.ForeColor = System.Drawing.Color.Red
-        Me.lblFront.Location = New System.Drawing.Point(21, 74)
+        Me.lblFront.Location = New System.Drawing.Point(24, 84)
         Me.lblFront.Name = "lblFront"
-        Me.lblFront.Size = New System.Drawing.Size(65, 52)
+        Me.lblFront.Size = New System.Drawing.Size(73, 59)
         Me.lblFront.TabIndex = 8
         Me.lblFront.Text = "##"
         '
         'lblSpeed
         '
         Me.lblSpeed.AutoSize = True
-        Me.lblSpeed.Location = New System.Drawing.Point(12, 9)
+        Me.lblSpeed.Location = New System.Drawing.Point(13, 10)
         Me.lblSpeed.Name = "lblSpeed"
-        Me.lblSpeed.Size = New System.Drawing.Size(44, 52)
+        Me.lblSpeed.Size = New System.Drawing.Size(49, 59)
         Me.lblSpeed.TabIndex = 9
         Me.lblSpeed.Text = "0"
         '
         'lblBeatPerCurSyllable
         '
         Me.lblBeatPerCurSyllable.AutoSize = True
-        Me.lblBeatPerCurSyllable.Location = New System.Drawing.Point(398, 9)
+        Me.lblBeatPerCurSyllable.Location = New System.Drawing.Point(452, 10)
         Me.lblBeatPerCurSyllable.Name = "lblBeatPerCurSyllable"
-        Me.lblBeatPerCurSyllable.Size = New System.Drawing.Size(44, 52)
+        Me.lblBeatPerCurSyllable.Size = New System.Drawing.Size(49, 59)
         Me.lblBeatPerCurSyllable.TabIndex = 10
         Me.lblBeatPerCurSyllable.Text = "0"
         '
         'lblCntSpaces
         '
         Me.lblCntSpaces.AutoSize = True
-        Me.lblCntSpaces.Location = New System.Drawing.Point(519, 9)
+        Me.lblCntSpaces.Location = New System.Drawing.Point(590, 10)
         Me.lblCntSpaces.Name = "lblCntSpaces"
-        Me.lblCntSpaces.Size = New System.Drawing.Size(44, 52)
+        Me.lblCntSpaces.Size = New System.Drawing.Size(49, 59)
         Me.lblCntSpaces.TabIndex = 12
         Me.lblCntSpaces.Text = "0"
         '
         'btnStart
         '
-        Me.btnStart.Location = New System.Drawing.Point(12, 451)
+        Me.btnStart.Location = New System.Drawing.Point(12, 494)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(288, 70)
+        Me.btnStart.Size = New System.Drawing.Size(327, 79)
         Me.btnStart.TabIndex = 13
         Me.btnStart.Text = "START"
         Me.btnStart.UseVisualStyleBackColor = True
@@ -117,18 +117,18 @@ Partial Class FrmMain
         'lblCntSyllable
         '
         Me.lblCntSyllable.AutoSize = True
-        Me.lblCntSyllable.Location = New System.Drawing.Point(643, 9)
+        Me.lblCntSyllable.Location = New System.Drawing.Point(730, 10)
         Me.lblCntSyllable.Name = "lblCntSyllable"
-        Me.lblCntSyllable.Size = New System.Drawing.Size(44, 52)
+        Me.lblCntSyllable.Size = New System.Drawing.Size(49, 59)
         Me.lblCntSyllable.TabIndex = 14
         Me.lblCntSyllable.Text = "0"
         '
         'FrmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(22.0!, 52.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(25.0!, 59.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1124, 533)
+        Me.ClientSize = New System.Drawing.Size(1150, 589)
         Me.Controls.Add(Me.lblCntSyllable)
         Me.Controls.Add(Me.btnStart)
         Me.Controls.Add(Me.lblCntSpaces)
@@ -137,10 +137,10 @@ Partial Class FrmMain
         Me.Controls.Add(Me.lblTotlSyllableToCurr)
         Me.Controls.Add(Me.pnlShield)
         Me.Controls.Add(Me.lblFront)
-        Me.Font = New System.Drawing.Font("Noto Sans CJK JP Bold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(129, Byte))
-        Me.Margin = New System.Windows.Forms.Padding(9, 13, 9, 13)
+        Me.Font = New System.Drawing.Font("Noto Sans CJK JP Bold", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(10, 15, 10, 15)
         Me.Name = "FrmMain"
-        Me.Text = "Form1"
+        Me.Text = "Main"
         Me.pnlShield.ResumeLayout(False)
         Me.pnlShield.PerformLayout()
         Me.ResumeLayout(False)

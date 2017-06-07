@@ -5,7 +5,7 @@
     Dim Beat() As Byte = {0, 2, 2, 4, 2, 1, 5, 2, 1, 3, 2, 2, 1, 5, 2, 1, 3, 2, 2, 1, 3, 2, 2, 1, 4, 6} '편의를 위하여 0번 index는 쓰이지 않음.
 
     Dim BeatCursor As Integer = 0 '현재 가사가 도달한 위치를 지시하는 커서.
-    Dim BPM As Integer = 230 '곡의 BPM. 윈폼의 한계 상 Timer가 지연되어 정확히 작동하지는 않는다. 따라서 곡의 BPM보다 어느 정도 큰 값을 주어야 함.
+    Dim BPM As Double = 220.0 '곡의 BPM. 윈폼의 한계 상 Timer가 지연되어 정확히 작동하지는 않는다. 따라서 곡의 BPM보다 어느 정도 큰 값을 주어야 함.
 
     Dim BeatOverBeat As Byte = 4 '박자당 박자
     Dim BeatOverNode As Byte = 4 '마디당 박자
