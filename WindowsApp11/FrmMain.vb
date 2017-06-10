@@ -19,7 +19,7 @@ Public Class FrmMain
 
     Dim ConversedBPM As Integer 'miliseconds 딜레이로 환산된 BPM.
 
-    Const minWidth as Integer = 10 'pnlShield의 최소 Width.
+    Const minWidth As Integer = 10 'pnlShield의 최소 Width.
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles tmrPlay.Tick
 
@@ -27,7 +27,7 @@ Public Class FrmMain
 
             BeatCursor += 1
             If Mid(FullLyric, BeatCursor, 1) = " " Then '스페이스를 스킵하기 위함.
-                pnlShield.Width += spaceWidth '더미 텍스트를 스페이스 양쪽에 넣어 스페이스 1개당 차지하는 Width를 구한다.
+                pnlShield.Width += spaceWidth
 
                 lblCntSpaces.Text += 1 '디버깅용
             End If
@@ -70,7 +70,7 @@ Public Class FrmMain
     End Function
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnStart.Click
-        spaceWidth = GetCharWidth("$ $", Font) - GetCharWidth("$$", Font)
+        spaceWidth = GetCharWidth("$ $", Font) - GetCharWidth("$$", Font) '더미 텍스트를 스페이스 양쪽에 넣어 스페이스 1개당 차지하는 Width를 구한다.
 
         ConversedBPM = (60 / BPM) * 1000
         tmrPlay.Interval = ConversedBPM
